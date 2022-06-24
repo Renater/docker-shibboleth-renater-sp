@@ -19,7 +19,7 @@ Technologies : cette image docker utilise un serveur apache (basée sur son imag
 ### Configuration
 
 Les variables suivantes sont utilisées pour personnaliser votre conteneur :
-- ``RENATER_SP_TEST_OR_PROD`` : pour basculer facilement le fournisseur de service sur la fédération RENATER de TEST ou de PROD (valeur par défaut: ``TEST``)
+- ``RENATER_SP_TEST_OR_PROD`` : pour basculer facilement le fournisseur de service sur la Fédération Education-Recherche (PROD) ou de test (TEST) (valeur par défaut: ``TEST``)
 - ``RENATER_SP_ENTITY_ID`` : l'identifiant technique de votre fournisseur de service (valeur par défaut: non-renseigné ; exemple de valeur : ``https://apollo-dev.theses.fr/sp``)
 - ``RENATER_SP_ADMIN_MAIL`` : l'adresse mail de contact qui sera utilisé dans les page d'erreur d'Apache et de Shibboleth (valeur par défaut : non-renseigné ; exemple de valeur: ``admin@theses.fr``)
 - ``RENATER_SP_HTTPD_SERVER_NAME`` : le nom public du serveur web de votre fournisseur de service (valeur par défaut : non-renseigné ; exemple de valeur : ``https://apollo-dev.theses.fr``)
